@@ -1,0 +1,80 @@
+# first comment
+# and second line comment
+emploees_list: 
+- martin: 
+    name: Martin Snow
+    job: Developer
+    skill: Advanced
+    age: 35
+- john: 
+    name: John 
+    job: Developer
+    skill: 
+    - python
+    - java
+    - css
+    age: 30
+    education: |
+      BSC computer scince
+      MSC businiss adminstration
+    languages: >
+      English
+      Spanish
+      Deutsch
+      Arabic  
+
+
+martin: {name: Martin Snow, job: Developer, Skill: ["python", "java", "css"], age: 35}    
+
+
+...
+
+# First yaml comment
+# Second comment
+# List of strings
+- Apple
+- Orange
+- Mango
+​
+​
+# An employee record
+martin: 
+  name: Martin Snow
+  job: Developer
+  skill: Senior
+  age: 35
+​
+# Employee list
+- martin: 
+    name: Martin Snow
+    job: Developer
+    skill: 
+      - pyhon
+      - javascript
+    age: 35
+- john: 
+    name: John Snow
+    job: Developer
+    skill:
+      - javascript
+      - html
+      - css
+    age: 45
+# Another object format
+martin: {name: Martin Snow, job: Developer, skill: ['python', 'javascript'], age: 35}
+​
+​
+#Multiple lines values
+​
+name: Martin Snow
+job: Developer
+skill:
+  - javascript
+  - html
+  - typescript
+education: | 
+  BSc Computer Science
+  MSc Business Administration
+eduvcation: >
+  BSc Computer Science
+  MSc Business Administration
